@@ -32,7 +32,16 @@ import geometry.*;
             System.out.println("Kolor koła: " + coloredCircle.getColor());
 
 
+
+            Rectangle rectangle = new Rectangle(5.0, 3.0);
+
+            // Wyświetlanie właściwości prostokąta
+            System.out.println("Właściwości prostokąta:");
+            System.out.println("Długość: " + rectangle.getLength());
+            System.out.println("Szerokość: " + rectangle.getWidth());
+            System.out.println("Pole powierzchni: " + rectangle.calculateArea());
+            System.out.println("Obwód: " + rectangle.calculatePerimeter());
+
         }
     } 
- }
-
+    } 
